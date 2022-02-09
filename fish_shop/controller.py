@@ -3,7 +3,7 @@ from les import app
 @app.route('/')
 def index():
     return "Hooray"
-@app.route('/fish/{id}')
+@app.route('/fish/<id>')
 def get_fish(id):
     print(id)
     return "my fish is gougerous"

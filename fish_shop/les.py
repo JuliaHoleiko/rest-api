@@ -1,6 +1,6 @@
-from flask import Flack
+from flask import Flask
 
-app = Flack (__name__)
+app = Flask (__name__)
 
 from controller import *
 
